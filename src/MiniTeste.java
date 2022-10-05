@@ -8,11 +8,13 @@ public class MiniTeste {
 
 		Scanner tecladoQtd = new Scanner(System.in);
 
+		//1
 		String cliente = "";
 		int qtd;
-		int contadorLaço = 0;
+		int contadorLaï¿½o = 0; 
 
-		do {
+		do { //2
+		
 			System.out.println("=======================================");
 			System.out.println("Informe o nome do cliente( A, B ou C)");
 			System.out.println("=======================================");
@@ -21,51 +23,53 @@ public class MiniTeste {
 			System.out.println("=======================================");
 			System.out.println("Informe a quantidade de itens comprados: ");
 			System.out.println("=======================================");
-			qtd = tecladoQtd.nextInt();
+			qtd = tecladoQtd.nextInt(); 
 
-			if (cliente.equals("A") && qtd >= 1 && qtd < 10) {
+			//3
 
-				System.out.println("Olá cliente A você recebeu 0% de desconto");
+			if (cliente.equals("A") && qtd >= 1 && qtd < 10) { //4
 
-			} else if (cliente.equals("B") && qtd >= 1 && qtd < 10) {
+				System.out.println("Olï¿½ cliente A vocï¿½ recebeu 0% de desconto"); //5
 
-				System.out.println("Olá cliente B você recebeu 5% de desconto ");
+			} else if (cliente.equals("B") && qtd >= 1 && qtd < 10) { //6
+ 
+				System.out.println("Olï¿½ cliente B vocï¿½ recebeu 5% de desconto "); //7
 
-			} else if (cliente.equals("C") && qtd >= 1 && qtd < 10) {
+			} else if (cliente.equals("C") && qtd >= 1 && qtd < 10) { //8
 
-				System.out.println("Olá cliente C você recebeu 0% de desconto");
+				System.out.println("Olï¿½ cliente C vocï¿½ recebeu 0% de desconto"); //9
 
-			} else if (cliente.equals("A") && qtd >= 10 && qtd <= 99) {
+			} else if (cliente.equals("A") && qtd >= 10 && qtd <= 99) { //10
 
-				System.out.println("Olá cliente A você recebeu 5% de desconto");
+				System.out.println("Olï¿½ cliente A vocï¿½ recebeu 5% de desconto"); //1
 
-			} else if (cliente.equals("B") && qtd >= 10 && qtd <= 99) {
+			} else if (cliente.equals("B") && qtd >= 10 && qtd <= 99) { //12
 
-				System.out.println("Olá cliente B você recebeu 15% de desconto");
+				System.out.println("Olï¿½ cliente B vocï¿½ recebeu 15% de desconto"); //13
 
-			} else if (cliente.equals("C") && qtd >= 10 && qtd <= 99) {
+			} else if (cliente.equals("C") && qtd >= 10 && qtd <= 99) { //14
 
-				System.out.println("Olá cliente C você recebeu 20% de desconto");
+				System.out.println("Olï¿½ cliente C vocï¿½ recebeu 20% de desconto"); //15
 
-			} else if (cliente.equals("A") && qtd >= 100 && qtd <= 1000) {
+			} else if (cliente.equals("A") && qtd >= 100 && qtd <= 1000) { //16
 
-				System.out.println("Olá Cliente A recebeu 10% de desconto");
+				System.out.println("Olï¿½ Cliente A recebeu 10% de desconto"); //17
 
-			} else if (cliente.equals("B") && qtd >= 100 && qtd <= 1000) {
+			} else if (cliente.equals("B") && qtd >= 100 && qtd <= 1000) { //18
 
-				System.out.println("Olá Cliente B recebeu 25% de desconto");
+				System.out.println("Olï¿½ Cliente B recebeu 25% de desconto"); //19
 
-			} else if (cliente.equals("C") && qtd >= 100 && qtd <= 1000) {
+			} else if (cliente.equals("C") && qtd >= 100 && qtd <= 1000) { //20
 
-				System.out.println("Olá Cliente C recebeu 25% de desconto");
+				System.out.println("Olï¿½ Cliente C recebeu 25% de desconto"); //21
 
 			} else {
-				System.out.println("Entrada inválida. Nome do cliente ou quantidade de itens incorreta!");
+				System.out.println("Entrada invï¿½lida. Nome do cliente ou quantidade de itens incorreta!"); //22
 			}
 
-		} while (qtd > contadorLaço);
+		} while (qtd > contadorLaï¿½o); //23
 
-		System.out.println("Encerrando a execução...");
+		System.out.println("Encerrando a execuï¿½ï¿½o..."); //24
 
 	}
 
