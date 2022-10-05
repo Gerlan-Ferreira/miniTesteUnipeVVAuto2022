@@ -41,7 +41,7 @@ public class MiniTeste {
 
 			} else if (cliente.equals("A") && qtd >= 10 && qtd <= 99) { //10
 
-				System.out.println("Ol� cliente A voc� recebeu 5% de desconto"); //1
+				System.out.println("Ol� cliente A voc� recebeu 5% de desconto"); //11
 
 			} else if (cliente.equals("B") && qtd >= 10 && qtd <= 99) { //12
 
